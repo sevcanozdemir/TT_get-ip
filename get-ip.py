@@ -7,7 +7,7 @@ def writeFile(filepath, text):
     f.close()
 
 # sunucu bilgileri listesindeki sunuculari test system unix envanteri ile karsilastir
-mydb = mysql.connector.connect(host='10.248.72.40', user='ansible', passwd='Support2022', database='testportal')
+mydb = mysql.connector.connect(host='10.*******', user='ansible', passwd='*****', database='*****')
 mycursor = mydb.cursor()
 queryStr="select ip from test_system_unix where statu=1 and destek_seviyesi='L2'"
 #"select max(ip_address) from vAllHosts \
